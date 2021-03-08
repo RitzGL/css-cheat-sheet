@@ -5,8 +5,28 @@
 }
 
 .card{
-    padding: 5%;
+    margin: 5%;
+    padding: 3%;
     border: 2px;
     border-style:dashed;
     max-width: 20%;
+    max-height: 10%;
+}
+
+.card h2{
+    position:relative;
+    bottom: 60px;
+    text-align: center;
+    border: 2px;
+    border-style: solid;
+    margin:0%;
+}
+
+.card p{
+    position:relative;
+    bottom:50px;
+}
+
+.card section{
+    text-align: center;
 }
