@@ -1,0 +1,12 @@
+*{
+    background-color: dimgray;
+    color:mediumorchid;
+    font-family: sans-serif;
+}
+
+.card{
+    padding: 5%;
+    border: 2px;
+    border-style:dashed;
+    max-width: 20%;
+}
