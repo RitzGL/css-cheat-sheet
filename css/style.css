@@ -1,30 +1,61 @@
 *{
+    /*universal element definition*/
     background-color: dimgray;
     color:mediumorchid;
     font-family: sans-serif;
 }
 
+header, footer{
+    text-align: center;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .card{
-    margin: 5%;
+
+    /*dimensions and spacing*/
+    margin: 20px;
     padding: 3%;
+
+    /*border edits*/
     border: 2px;
+    border-radius: 15px;
     border-style:dashed;
-    max-width: 20%;
-    max-height: 10%;
+
+    /*card sizing*/
+    width: 20%;
+    height: 10%;
 }
 
 .card h2{
+
+    /*dimensions and spacing*/
+    margin:0%;
+    padding: 15px;
+
+    /*positioning*/
     position:relative;
-    bottom: 60px;
+    bottom: 90px;
+
+    /*text positioning*/
     text-align: center;
+
+    /*border editing*/
     border: 2px;
     border-style: solid;
-    margin:0%;
+    border-radius: 15px;
+    
 }
 
 .card p{
+
+    /*positioning*/
     position:relative;
     bottom:50px;
+
 }
 
 .card section{
